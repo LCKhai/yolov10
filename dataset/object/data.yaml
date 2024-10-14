@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['box', 'card', 'key', 'mouse', 'pen', 'wallet']
+
+roboflow:
+  workspace: joyboi
+  project: nhan-dang-doi-tuong-mqjkc
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/joyboi/nhan-dang-doi-tuong-mqjkc/dataset/1
